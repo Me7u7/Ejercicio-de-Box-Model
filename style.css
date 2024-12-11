@@ -1,25 +1,32 @@
+*{
+    box-sizing: border-box;
+}
+
 h1{
     background-color: #38668e;
     margin: 10px;
     padding: 10px;
-    border: plum;
+    border:solid rgb(40, 40, 114);
     color: rgb(250, 250, 250);
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: center;
+    font-family: "Dela Gothic One", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: ;
+           
 }   
 
 section{
     background-color: rgb(40, 40, 114);
     color: rgb(214, 218, 255);
 }
-
-.product img{
+div img{
     height: 380px;
     width: 374px;
     object-fit: fill;
 }
 
-figure{
+div{
     display: inline-block;
     color: aliceblue;
     text-align: center;
@@ -31,5 +38,9 @@ figure{
 }
 
 #Izquierda{
-    margin-bottom: 160px;
+    padding: 0px 20px 160px 20px;
+}
+
+#derecha{
+    padding: 0px 0px 0px 80px;
 }
